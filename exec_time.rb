@@ -55,7 +55,7 @@ def my_min_4(list)
   max = 0
   running_max = 0
 
-  list.each do |num|
+  list.each do |num|na
     running_max += num
     if running_max > max
       max = running_max
